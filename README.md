@@ -14,11 +14,14 @@
    用babel打包js ，用sass打包scss
    打包后的文件没有压缩
   ```
+  //  /components/index.js
 import Notification from './notification'
 export { Notification } 
   ```
-  组件导出的时候没有添加default，因此发布成功后使用时操作如下(发布的名称为1225)
+  组件导出的时候没有添加default，因此发布成功后使用时操作如下(发布的名称为1225zhangqian)
   ```
+  //安装
   npm install 1225zhangqian
+  //引用
   import { Notification } from 1225zhangqian
   ```
