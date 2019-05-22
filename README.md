@@ -20,5 +20,5 @@ export { Notification }
   组件导出的时候没有添加default，因此发布成功后使用时操作如下(发布的名称为1225)
   ```
   npm install 1225zhangqian
-  import {Notification} from 1225zhangqian
+  import { Notification } from 1225zhangqian
   ```
