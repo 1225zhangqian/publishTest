@@ -1,7 +1,7 @@
 # publishTest
 
 
-🎉 在npm上发布组件库
+🎉 从0开始搭建react项目，完成组件封装，在npm上发布组件库
   ```
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
